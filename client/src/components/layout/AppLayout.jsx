@@ -5,7 +5,7 @@ import Grid from "@mui/material/Grid";
 import ChatList from "../specific/ChatList";
 import { sampleChats } from "../../constants/sampleData";
 import { useParams } from "react-router-dom";
-import ProfileCard from "../specific/ProfileCard";
+import Profile from "../specific/Profile";
 
 const AppLayout = () => (WrapperComponent) => {
   // eslint-disable-next-line react/display-name
@@ -53,7 +53,7 @@ const AppLayout = () => (WrapperComponent) => {
             }}
             height={"100%"}
           >
-            <ProfileCard />
+            <Profile />
           </Grid>
         </Grid>
       </>
