@@ -7,7 +7,7 @@ import {
   Tooltip,
   Backdrop,
 } from "@mui/material";
-import React, { Suspense, useState } from "react";
+import { Suspense, useState } from "react";
 import { orange } from "../../constants/color";
 import {
   Add as AddIcon,

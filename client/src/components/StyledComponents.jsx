@@ -1,5 +1,6 @@
 import { styled } from "@mui/material";
 import { Link as LinkComponent } from "react-router-dom";
+import { grayColor } from "../constants/color";
 
 export const VisuallyHiddenInput = styled("input")({
   position: "absolute",
@@ -19,3 +20,13 @@ export const Link = styled(LinkComponent)({
     backgroundColor: "rgba(0, 0, 0, 0.1)",
   },
 });
+
+export const InputBox = styled("input")`
+  width: 100%;
+  height: 100%;
+  boreder: none;
+  padding: 0 3rem;
+  outline: none;
+  border-radius: 1.5rem;
+  bacjground-color: ${grayColor};
+`;
