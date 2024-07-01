@@ -55,3 +55,22 @@ export const sampleNotification = [
     _id: "2",
   },
 ];
+
+export const sampleMessages = [
+  {
+    attachment: [
+      {
+        public_id: "1234567890",
+        url: "https://www.programiz.com/cpp-programming/online-compiler/assets/logos/logo.svg",
+      },
+    ],
+    content: "khan bhai kese ho",
+    _id: "dshjkhfjkshfhdfksd",
+    sender: {
+      _id: "user._id",
+      name: "Arman",
+    },
+    chat: "chatId",
+    createdAt: "2023-05-12T14:48:00.",
+  },
+];
