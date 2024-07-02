@@ -58,12 +58,7 @@ export const sampleNotification = [
 
 export const sampleMessages = [
   {
-    attachment: [
-      {
-        public_id: "1234567890",
-        url: "https://www.programiz.com/cpp-programming/online-compiler/assets/logos/logo.svg",
-      },
-    ],
+    attachments: [],
     content: "khan bhai kese ho",
     _id: "dshjkhfjkshfhdfksd",
     sender: {
@@ -71,6 +66,22 @@ export const sampleMessages = [
       name: "Arman",
     },
     chat: "chatId",
-    createdAt: "2023-05-12T14:48:00.",
+    createdAt: "2024-07-01T06:16:14.685Z",
+  },
+  {
+    attachments: [
+      {
+        public_id: "123456788",
+        url: "https://static.vecteezy.com/system/resources/thumbnails/027/951/137/small_2x/stylish-spectacles-guy-3d-avatar-character-illustrations-png.png",
+      },
+    ],
+    content: "",
+    _id: "sdasadasasad",
+    sender: {
+      _id: "sdasadasasad",
+      name: "khan ",
+    },
+    chat: "chatId",
+    createdAt: "2024-07-01T06:16:10.685Z",
   },
 ];

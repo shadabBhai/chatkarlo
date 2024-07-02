@@ -12,7 +12,7 @@ import { sampleMessages } from "../constants/sampleData";
 import MessageComponent from "../components/shared/MessageComponent";
 
 const user = {
-  _id: "sdasad",
+  _id: "sdasadasasad",
   name: "Maqbool Hasan",
 };
 
