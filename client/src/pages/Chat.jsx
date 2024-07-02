@@ -6,7 +6,7 @@ import {
   AttachFile as AttachFileIcon,
   Send as SendIcon,
 } from "@mui/icons-material";
-import { InputBox } from "../components/StyledComponents";
+import { InputBox } from "../components/styles/StyledComponents";
 import FileMenu from "../components/dialogs/FileMenu";
 import { sampleMessages } from "../constants/sampleData";
 import MessageComponent from "../components/shared/MessageComponent";
